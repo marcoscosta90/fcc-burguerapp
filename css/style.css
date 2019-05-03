@@ -1,0 +1,77 @@
+
+
+@media (max-width: 600px) {
+    html, body {
+      background-color: lightblue;
+      font: 300 16px/1.4 "Fira Sans", sans-serif;
+      color: #444;
+    }
+}
+@import
+  url("https://fonts.googleapis.com/css?family=Fira+Sans:100,200,200i,300,300i,700")
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+  
+
+ul {
+  list-style: none;
+}
+a {
+  color: #E66000;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF9500;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 100px;
+
+}
+.logo-header {
+  align-self: center;
+  
+}
+.logo-img {
+  height: auto;
+  width: 320px;
+  padding: 15px;
+}
+.nav-bar {
+  align-self: center;
+  margin: 0;
+  padding: 0 20px 0 0;
+  top: 0;
+  position: fixed;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-link {
+  font-weight: 700;
+  margin: 10px 10px;
+  
+}
+main {
+  width: 50vw;
+  min-width: 560px;
+  margin: 0 auto;
+}
+fieldset {
+  border:1px solid lightgray;
+  margin: 30px;
+  text-align: justify;
+}
+legend {
+  text-align: center;
+}
